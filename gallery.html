@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site Images - Iconic Infra Group</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+
+    .branding {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #f8f9fa;
+    }
+
+    .branding img {
+      height: 80px;
+      margin-right: 10px;
+    }
+
+    .branding h3 {
+      font-size: 24px;
+      margin: 0;
+      font-weight: bold;
+      color: #ff6600;
+    }
+
+    .branding h3 span {
+      color: #4b0082;
+    }
+
+    .nav-links {
+      margin-left: auto;
+    }
+
+    .nav-links a {
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #003366;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top:1px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+     .fixed-image {
+    width: 100%;         /* makes it responsive in the column */
+    height: 250px;       /* fixed height, you can change as needed */
+    object-fit: cover;   /* crop to fill the area without stretching */
+    border-radius: 8px;  /* optional: rounded corners */
+  }
+    @media (max-width: 576px) {
+      .branding {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .branding h3 {
+        font-size: 18px;
+      }
+      .nav-links {
+        margin: 10px 0 0;
+      }
+      .nav-links a {
+        font-size: 16px;
+        display: inline-block;
+        margin-right: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Branding & Navbar -->
+  <div class="container-fluid branding">
+    <img src="images/logo.png" alt="Company Logo">
+    <h3>ICONIC <span>INFRA GROUP</span></h3>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+    <div class="dropdown d-inline-block">
+    <a class="dropdown-toggle" href="#" role="button" id="projectDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+      Projects
+    </a>
+      <ul class="dropdown-menu" id="projectList" aria-labelledby="projectDropdown" style="min-width: 200px;">
+     <li draggable="true"><a class="dropdown-item" href="projects.html">OnGoing Projects</a></li>
+      <li draggable="true"><a class="dropdown-item" href="#upcoming">Upcoming Projects</a></li>
+    </ul>
+  </div>
+      <a href="#">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <!-- Site Images Section -->
+  <section class="container">
+
+    <!-- Choteppalle -->
+    <h2 class="text-center">Choutuppal Site Images</h2>
+    <div class="row g-3">
+      <div class="col-12 col-sm-6 col-md-4">
+        <img src="images/chotepall/cp1.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <img src="images/chotepall/cp2.jpg" class="img-fluid  w-100" style="max-height: 205px;" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <img src="images/chotepall/cp3.jpg" class="img-fluid"  alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <img src="images/chotepall/cp4.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <img src="images/chotepall/cp5.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <img src="images/chotepall/cp6.jpg" class="img-fluid" alt="">
+      </div>
+
+      <h2 class="text-center">Yacharam Site Images</h2>
+    <div class="row g-3">
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/yacharam/y1.jpg" class="img-fluid fixed-image" ></div>
+      <div class="col-13 col-sm-6 col-md-4"><img src="images/yacharam/y3.jpg" class="img-fluid fixed-image" ></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/yacharam/y10.jpg" class="img-fluid fixed-image"></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/yacharam/y4.jpg" class="img-fluid fixed-image" alt=""></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/yacharam/y9.jpg" class="img-fluid fixed-image" alt=""></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/yacharam/y5.jpg" class="img-fluid fixed-image" alt=""></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/yacharam/y8.jpg" class="img-fluid fixed-image" alt=""></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/yacharam/y6.jpg" class="img-fluid fixed-image" alt=""></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/yacharam/y7.jpg" class="img-fluid fixed-image" alt=""></div>
+    </div>
+        
+          <h2 class="text-center">Kothur Site Images</h2>
+    <div class="row g-3">
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/kothore/k1.jpg" class="img-fluid" alt=""></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/kothore/k2.jpg" class="img-fluid" alt=""></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/kothore/k3.jpg" class="img-fluid" alt=""></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/kothore/k4.jpg" class="img-fluid" alt=""></div>
+      <div class="col-12 col-sm-6 col-md-4"><img src="images/kothore/k5.jpg" class="img-fluid" alt=""></div>
+    </div>
+    </div>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
